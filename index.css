@@ -1,0 +1,11 @@
+.logo{
+    align-items: center;
+    
+}
+nav ul li a{
+    margin: 5px;
+    border-radius: 2px;
+}
+nav ul li :hover{
+    background-color: rgb(132, 252, 132);
+}
