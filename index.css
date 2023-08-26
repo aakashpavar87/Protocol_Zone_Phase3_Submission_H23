@@ -9,3 +9,29 @@ nav ul li a{
 nav ul li :hover{
     background-color: rgb(132, 252, 132);
 }
+footer {
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    padding: 20px; /* Padding around content */
+    text-align: center; /* Center-align text */
+  }
+  
+  /* Style links within the footer */
+  footer a {
+    color: #fff; /* Link color */
+    text-decoration: none; /* Remove underlines from links */
+  }
+  
+  /* Style links when hovered */
+  footer a:hover {
+    text-decoration: underline; /* Underline links on hover */
+  }
+  
+  /* Add a border at the top for separation */
+  footer::before {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: #555;
+    margin: 10px auto;
+  }
