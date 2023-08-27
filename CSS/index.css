@@ -1,0 +1,72 @@
+.logo{
+    align-items: center;
+    
+}
+nav ul li a{
+    margin: 5px;
+    border-radius: 2px;
+}
+nav ul li :hover{
+    background-color: rgb(132, 252, 132);
+}
+footer {
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    padding: 20px; /* Padding around content */
+    text-align: center; /* Center-align text */
+  }
+  
+  /* Style links within the footer */
+  footer a {
+    color: #fff; /* Link color */
+    text-decoration: none; /* Remove underlines from links */
+  }
+  
+  /* Style links when hovered */
+  footer a:hover {
+    text-decoration: underline; /* Underline links on hover */
+  }
+  
+  /* Add a border at the top for separation */
+  footer::before {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: #555;
+    margin: 10px auto;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar2 {
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar2 ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar2 li {
+    margin: 0 15px;
+}
+
+.navbar2 a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.content {
+    padding: 20px;
+    /* Add some content here */
+}
